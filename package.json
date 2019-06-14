@@ -1,7 +1,7 @@
 {
-  "name": "useraccounts-react",
-  "version": "1.0.0",
-  "description": "Meteor's accounts view layer for react",
+  "name": "accounts-react",
+  "version": "1.2.5",
+  "description": "Meteor Account UI for React",
   "main": "index.js",
   "scripts": {
     "publish": "meteor publish",

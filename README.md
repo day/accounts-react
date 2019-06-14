@@ -1,10 +1,10 @@
 # **Meteor Accounts UI for React**
 
-`meteor add meteoreact:accounts`
+`meteor add day:accounts-react`
 
+**This package forked from Roy Giladi's [`meteoreact:accounts`](https://github.com/royGil/accounts-react).**
 **A huge credit goes to the [`useraccounts`](https://github.com/meteor-useraccounts/core) package and the people behind it.**
 
-This package has been created to be used in one of my projects which was purely React.
 Although the original useraccounts package [can be used](https://www.meteor.com/tutorials/react/adding-user-accounts) in react, it depends on blaze and jquery which are both useless when developing with react.
 
 Right now, you might find that there are several features which hasn't been included in this package. Please open an issue if you need a feature and think it will benefit the community.
@@ -53,7 +53,7 @@ Also note that it's mandatory to call `AccountsReact.configure` on both client/s
 
 <a name='Styled' />
 
-### Styled versions
+### Styled Versions (by Roy Giladi)
 Pick the package that suit your app. ([Create it if it doesn't exist!](https://github.com/royGil/accounts-react/issues/6))
 * [meteoreact:accounts-unstyled](https://github.com/royGil/accounts-unstyled)
 * [meteoreact:accounts-semantic](https://github.com/royGil/accounts-semantic)
