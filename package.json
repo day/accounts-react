@@ -1,13 +1,13 @@
 {
   "name": "accounts-react",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "description": "Meteor Account UI for React",
   "main": "index.js",
   "scripts": {
     "publish": "meteor publish",
     "test": "meteor test-packages ./ --driver-package cultofcoders:mocha --port 3006"
   },
-  "author": "Roy Giladi",
+  "author": "Day Waterbury",
   "license": "MIT",
   "dependencies": {
     "babel-runtime": "^6.26.0",
