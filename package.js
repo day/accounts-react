@@ -1,7 +1,7 @@
 Package.describe({
   name: 'day:accounts-react',
   summary: 'Meteor Accounts UI for React',
-  version: '1.2.6',
+  version: '1.2.8',
   documentation: 'README.md',
   git: 'https://github.com/day/accounts-react'
 })
@@ -31,7 +31,7 @@ Package.onTest(api => {
     'accounts-base',
     'accounts-password',
     'day:accounts-react',
-    'meteoreact:accounts-unstyled',
+    'day:accounts-react-semantic-ui',
     'mdg:validated-method@1.1.0',
     'react-meteor-data@0.2.16',
     'cultofcoders:mocha'
