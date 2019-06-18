@@ -1,7 +1,7 @@
 Package.describe({
   name: 'day:accounts-react',
   summary: 'Meteor Accounts UI for React',
-  version: '1.2.8',
+  version: '1.2.9',
   documentation: 'README.md',
   git: 'https://github.com/day/accounts-react'
 })
