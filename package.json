@@ -1,6 +1,6 @@
 {
   "name": "accounts-react",
-  "version": "1.2.18",
+  "version": "1.2.19",
   "description": "Meteor Account UI for React",
   "main": "index.js",
   "scripts": {

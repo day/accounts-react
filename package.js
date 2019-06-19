@@ -1,7 +1,7 @@
 Package.describe({
   name: 'day:accounts-react',
   summary: 'Meteor Accounts UI for React',
-  version: '1.2.18',
+  version: '1.2.19',
   documentation: 'README.md',
   git: 'https://github.com/day/accounts-react'
 })
@@ -14,10 +14,10 @@ Package.onUse(api => {
     'accounts-base',
     'accounts-password',
     'mdg:validated-method@1.1.0',
-    'check'
+    'check',
   ], ['client', 'server'])
 
-  api.use('react-meteor-data@0.2.16', 'client')
+  api.use(['react-meteor-data@0.2.16', 'session'], 'client')
 
   api.use('service-configuration', { weak: true })
   api.use('http', 'server')
