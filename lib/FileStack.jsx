@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom'
-import filestack from 'filestack-js/build/browser/filestack.min.js';
+import ReactDOM from 'react-dom';
+if (Meteor.isClient) {
+  import filestack from 'filestack-js/build/browser/filestack.min.js';
+}
 import PropTypes from 'prop-types';
 class FileStack extends Component {
     static defaultProps = {
